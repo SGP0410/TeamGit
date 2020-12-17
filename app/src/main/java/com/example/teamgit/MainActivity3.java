@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity3 extends AppCompatActivity {
 
     @Override
@@ -20,8 +23,7 @@ public class MainActivity3 extends AppCompatActivity {
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
+        List<String> strings = new ArrayList<>();
 
 
     }
