@@ -3,6 +3,7 @@ package com.example.teamgit;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
+
+
+        Log.i("aaaa", "onCreate: ");
 
 
     }
