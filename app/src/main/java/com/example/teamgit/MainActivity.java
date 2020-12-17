@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
 
-        Log.i("vvv", "onCreate: ");
-
-        Log.i("aaaa", "onCreate: ");
 
 
     }

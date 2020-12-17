@@ -16,5 +16,6 @@ public class Activity_the1 extends AppCompatActivity {
         Log.i("vvvvvv", "onCreate: ");
 
 
+
     }
 }
