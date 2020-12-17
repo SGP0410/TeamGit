@@ -23,6 +23,7 @@ public class MainActivity3 extends AppCompatActivity {
         Log.i(TAG, "onCreate: ssss");
 
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
+        
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
