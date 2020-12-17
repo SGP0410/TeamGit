@@ -25,7 +25,7 @@ public class MainActivity3 extends AppCompatActivity {
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
 
-        
+        Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "哈哈", Toast.LENGTH_SHORT).show();
 
@@ -33,6 +33,7 @@ public class MainActivity3 extends AppCompatActivity {
         Intent intent = new Intent(MainActivity3.this,MainActivity.class);
         startActivity(intent);
         Log.i(TAG, "onCreate: ");
+        List<String> strings = new ArrayList<>();
 
 
     }
