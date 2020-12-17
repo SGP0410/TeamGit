@@ -3,11 +3,13 @@ package com.example.teamgit;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = "vvvvv";
+    private Object Thread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "我是何忠苗", Toast.LENGTH_SHORT).show();
 
+        Log.i(TAG, "onCreate: sstheguan");
 
+        Thread = new Thread();
 
     }
 }
